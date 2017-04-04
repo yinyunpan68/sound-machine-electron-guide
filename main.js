@@ -5,6 +5,7 @@ var BrowserWindow = require('browser-window');
 var globalShortcut = require('global-shortcut');
 var configuration = require('./configuration');
 var ipc = require('ipc');
+var test = "t";
 
 var mainWindow = null;
 var settingsWindow = null;
